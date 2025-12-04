@@ -8,11 +8,11 @@ import tkinter as tk
 from tkinter import ttk, StringVar
 from tkinter.scrolledtext import ScrolledText
 
-from Help_Desk.Assignment import Assignment
-from Help_Desk.Database_Tier import create_connection, init_tables, reset_tables, \
+from IT_Task_Manager.Assignment import Assignment
+from IT_Task_Manager.Database_Tier import create_connection, init_tables, reset_tables, \
     query_employees, retrieve_employee_names, query_tasks, query_assignments, add_task, add_assignment, \
     update_assignment_status
-from Help_Desk.Task import Task
+from IT_Task_Manager.Task import Task
 
 
 class HelpDeskGUI(tk.Tk):

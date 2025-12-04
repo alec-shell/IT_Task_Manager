@@ -7,10 +7,10 @@ Alec Shellberg
 import sqlite3
 from contextlib import closing
 
-from Help_Desk.Assignment import Assignment
-from Help_Desk.Employee import Employee
-from Help_Desk.Task import Task
-from Help_Desk.config import default_employee_list, default_task_list, default_assignments_list
+from IT_Task_Manager.Assignment import Assignment
+from IT_Task_Manager.Employee import Employee
+from IT_Task_Manager.Task import Task
+from IT_Task_Manager.config import default_employee_list, default_task_list, default_assignments_list
 
 
 def create_connection():

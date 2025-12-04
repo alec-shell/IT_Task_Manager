@@ -3,9 +3,9 @@ config.py: Default Employee, Task, and Assignment objects.
 Alec Shellberg
 11/29/2025
 """
-from Help_Desk.Assignment import Assignment
-from Help_Desk.Employee import Employee
-from Help_Desk.Task import Task
+from IT_Task_Manager.Assignment import Assignment
+from IT_Task_Manager.Employee import Employee
+from IT_Task_Manager.Task import Task
 
 # default employees
 John = Employee(1, "John", "Johnson", "555-555-2345", "john_j@helpdesk.com")
